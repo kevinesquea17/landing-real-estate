@@ -9,12 +9,12 @@ import {AiFillHome, AiOutlineSearch} from 'react-icons/ai'
 
 const Header = () => {
   return (
-    <header className='h-screen w-full font-quicksand flex flex-col relative gap-8 items-center'>
+    <header className='sm:h-screen h-[50vh] w-full font-quicksand flex flex-col relative gap-8 items-center'>
         <img src={BackgroundEstate} alt="" className='w-full h-full object-cover absolute left-0 top-0 brightness-50'/>
         <Navbar />
         <div className='flex-1 flex flex-col justify-center items-center relative'>
             <div className='w-[70%] text-center mb-16'>
-                <h2 className='text-5xl font-bold text-white'>Find your next perfect place with easy way</h2>
+                <h2 className='sm:text-5xl font-bold text-white text-3xl'>Find your next perfect place with easy way</h2>
             </div>
             <div className='w-[90%] bg-white h-24 rounded-full p-2 pl-8 sm:flex hidden items-center justify-between'>
                 <div className='flex flex-col border-r border-gray-400'>
